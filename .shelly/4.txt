@@ -1,0 +1,126 @@
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1 /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1/array002.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1/array002.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1/array002.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1/array002.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1/array001.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1/array001.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/arrays1/array001.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/arrays1/array001.lat
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1 /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/points.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/points.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/queue.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/queue.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/points.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/points.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/queue.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/queue.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/linked.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/linked.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/linked.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/linked.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/counter.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/counter.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects1/counter.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects1/counter.lat
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects2 /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects2
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects2
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects2
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects2/shapes.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects2/shapes.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/objects2/shapes.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/objects2/shapes.output
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/struct /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/struct
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/struct
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/struct
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/struct/list.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/struct/list.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/extensions/struct/list.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/extensions/struct/list.output
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core014.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core014.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core002.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core002.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core010.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core010.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core018.input /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core018.input
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core012.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core012.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core007.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core007.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core018.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core018.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core005.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core005.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core004.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core004.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core021.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core021.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core008.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core008.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core007.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core007.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core001.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core001.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core011.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core011.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core003.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core003.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core020.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core020.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core013.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core013.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core011.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core011.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core022.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core022.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core020.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core020.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core022.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core022.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core021.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core021.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core016.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core016.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core006.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core006.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core015.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core015.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core001.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core001.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core010.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core010.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core009.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core009.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core009.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core009.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core017.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core017.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core019.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core019.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core017.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core017.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core003.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core003.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core016.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core016.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core008.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core008.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core018.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core018.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core012.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core012.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core005.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core005.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core006.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core006.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core015.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core015.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core014.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core014.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core019.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core019.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core013.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core013.output
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core002.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core002.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/good/core004.output /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/good/core004.output
+cp -r /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad
+mkdir /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad
+ls /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad008.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad008.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad002.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad002.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad016.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad016.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad022.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad022.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad005.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad005.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad025.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad025.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad015.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad015.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad003.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad003.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad006.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad006.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad011.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad011.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad027.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad027.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad004.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad004.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad021.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad021.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad007.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad007.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad013.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad013.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad017.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad017.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad010.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad010.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad009.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad009.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad001.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad001.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad023.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad023.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad018.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad018.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad020.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad020.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad024.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad024.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad026.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad026.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad012.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad012.lat
+cp /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/lattests/bad/bad019.lat /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/./testerTests/bad/bad019.lat
+cd /home/students/inf/p/pk320408/Dokumenty/MRJP/zad2pr/kompilator/
+ls ./
+echo 'All project files:'
+[FilePath "./AbsLatte.hs",FilePath "./Latte.cf",FilePath "./CompileLatte.hs",FilePath "./AnalizeLatte.hs",FilePath "./lib",FilePath "./ErrM.hs",FilePath "./ParLatte.hs",FilePath "./LexLatte.hs",FilePath "./PrintLatte.hs",FilePath "./tmp.bc",FilePath "./CommonLatte.hs",FilePath "./Makefile",FilePath "./latc_llvm.hs",FilePath "./prog.bc",FilePath "./lattests",FilePath "./ErrM.hi",FilePath "./ErrM.o",FilePath "./AbsLatte.hi",FilePath "./AbsLatte.o",FilePath "./LexLatte.hi",FilePath "./LexLatte.o",FilePath "./ParLatte.hi",FilePath "./ParLatte.o",FilePath "./CommonLatte.hi",FilePath "./CommonLatte.o",FilePath "./AnalizeLatte.hi",FilePath "./AnalizeLatte.o",FilePath "./CompileLatte.hi",FilePath "./CompileLatte.o",FilePath "./latc_llvm.hi",FilePath "./latc_llvm.o",FilePath "./latc_llvm",FilePath "./lattester",FilePath "./pk320408-2.tar.gz",FilePath "./.shelly",FilePath "./testerTests"]
+echo 'Archives:'
+[("xf",FilePath "./pk320408-2.tar.gz")]
+FilePath "./pk320408-2.tar.gz"
+echo 'tar xf ./pk320408-2.tar.gz'
+tar xf ./pk320408-2.tar.gz
+which tar
+echo '/usr/bin/make'
+/usr/bin/make
+which /usr/bin/make
+echo 'latc executable not found'
+exit 1

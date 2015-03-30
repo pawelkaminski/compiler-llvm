@@ -1,0 +1,173 @@
+-- programs ------------------------------------------------
+
+entrypoints Program ;
+
+Program.   Program ::= [TopDef] ;
+
+FnDef.	   TopDef ::= Type Ident "(" [Arg] ")" Block ;
+
+Arg. 	   Arg ::= Type Ident;
+
+separator  Arg "," ;
+
+ClassDefPure.	   TopDef ::= "class" Ident ClassBlock ;
+
+ClassDefChild.	   TopDef ::= "class" Ident "extends" Ident ClassBlock ;
+
+separator nonempty TopDef "" ;
+
+-- statements ----------------------------------------------
+
+Block.     Block ::= "{" [Stmt] "}" ;
+
+separator  Stmt "" ;
+
+Empty.     Stmt ::= ";" ;
+
+BStmt.     Stmt ::= Block ;
+
+Decl.      Stmt ::= Type [Item] ";" ;
+
+NoInit.    Item ::= Ident ; 
+
+Init.      Item ::= Ident "=" Expr ;
+
+separator nonempty Item "," ;
+
+AssPure.   Stmt ::= [Ident] "=" Expr  ";" ;
+
+Incr.      Stmt ::= [Ident] "++"  ";" ;
+
+Decr.      Stmt ::= [Ident] "--"  ";" ;
+
+Ret.       Stmt ::= "return" Expr ";" ;
+
+VRet.      Stmt ::= "return" ";" ;
+
+Cond.      Stmt ::= "if" "(" Expr ")" Stmt  ;
+
+CondElse.  Stmt ::= "if" "(" Expr ")" Stmt "else" Stmt  ;
+
+While.     Stmt ::= "while" "(" Expr ")" Stmt ;
+
+SExp.      Stmt ::= Expr  ";" ;
+
+
+-- Class Statements ---------------------------------------
+
+
+ClassBlock.     ClassBlock ::= "{" [ClassStmt] "}" ;
+
+separator nonempty ClassStmt "" ;
+
+ClassEmpty.     ClassStmt ::= ";" ;
+
+MethodDef. 		ClassStmt ::= Type Ident "(" [Arg] ")" Block ;
+
+ClassDecl.      ClassStmt ::= Type [ClassItem] ";" ;
+
+ClassVarInit.   ClassItem ::= Ident ; 
+
+separator nonempty ClassItem "," ;
+
+
+-- Types ---------------------------------------------------
+
+PureType.  Type ::= PureType ;
+
+Int.       PureType ::= "int" ;
+
+Str.       PureType ::= "string" ;
+
+Bool.      PureType ::= "boolean" ;
+
+Void.      PureType ::= "void" ;
+
+Class.	   PureType ::= Ident ;
+
+
+-- can be deleted no needed
+internal   Fun. Type ::= Type "(" [Type] ")" ;
+
+separator  Type "," ;
+
+
+-- Expressions ---------------------------------------------
+
+EVar.      Expr8 ::= "(" Expr ")" "." [Ident] ;
+
+EVarPure.  Expr8 ::= [Ident] ;
+
+ELitInt.   Expr7 ::= Integer ;
+
+EString.   Expr7 ::= String ;
+
+ELitTrue.  Expr7 ::= "true" ;
+
+ELitFalse. Expr7 ::= "false" ;
+
+ELitCall.  Expr7 ::= "null" ;
+
+ENewObj.   Expr7 ::= "new" PureType;
+
+EApp.      Expr6 ::= "(" Expr ")" "." Ident "(" [Expr] ")" ;
+
+EAppObj.      Expr6 ::= "(" Expr ")" "." Ident "(" [Expr] ")" "." Expr6;
+
+EAppPure.      Expr6 ::= [Ident] "(" [Expr] ")" ;
+
+EAppPureObj.      Expr6 ::= [Ident] "(" [Expr] ")" "." Expr6;
+
+Ecast.	   Expr6 ::= "(" Expr ")" Expr6;
+
+Neg.       Expr5 ::= "-" Expr6 ;
+
+Not.       Expr5 ::= "!" Expr6 ;
+
+EMul.      Expr4 ::= Expr4 MulOp Expr5 ;
+
+EAdd.      Expr3 ::= Expr3 AddOp Expr4 ;
+
+ERel.      Expr2 ::= Expr2 RelOp Expr3 ;
+
+EAnd.      Expr1 ::= Expr2 "&&" Expr1 ;
+
+EOr.       Expr ::= Expr1 "||" Expr ;
+
+coercions  Expr 8 ;
+
+separator  Expr "," ;
+
+separator nonempty Ident ".";
+
+-- operators -----------------------------------------------
+
+Plus.      AddOp ::= "+" ;
+
+Minus.     AddOp ::= "-" ;
+
+Times.     MulOp ::= "*" ;
+
+Div.       MulOp ::= "/" ;
+
+Mod.       MulOp ::= "%" ;
+
+LTH.       RelOp ::= "<" ;
+
+LE.        RelOp ::= "<=" ;
+
+GTH.       RelOp ::= ">" ;
+
+GE.        RelOp ::= ">=" ;
+
+EQU.       RelOp ::= "==" ;
+
+NE.        RelOp ::= "!=" ;
+
+-- comments ------------------------------------------------
+
+comment    "#" ;
+
+comment    "//" ;
+
+comment    "/*" "*/" ;
